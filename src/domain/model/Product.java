@@ -22,7 +22,7 @@ public abstract class Product implements Serializable {
         this.price = price;
     }
 
-    public String getiD() {
+    public String getID() {
         return iD;
     }
 

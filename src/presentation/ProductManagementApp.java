@@ -15,10 +15,10 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.DefaultTableModel;
 
-import domain.ProductService;
+import domain.Service;
 
 public class ProductManagementApp extends JFrame {
-    private ProductService productService;
+    private Service productService;
     private DefaultTableModel tableModel;
     private JTable table;
     private JTextField idTextField;
